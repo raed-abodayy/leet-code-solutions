@@ -11,7 +11,7 @@ public class Solution
         Reverse(nums, k, arrlen - 1);
     }
 
-    private void Reverse(int[] nums, int front, int back)
+     void Reverse(int[] nums, int front, int back)
     {
         while (front < back)
         {
